@@ -1,0 +1,41 @@
+# PlatformIO & Embedded Build Artifacts
+.pio/
+build/
+*.bin
+*.elf
+*.hex
+*.o
+*.a
+*.d
+
+# Python Artifacts & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Temporary Simulation Logs & Raw Dumps
+*.log
+wokwi_log.txt
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment & Secrets (Defensive)
+.env
+*.pem
+*.key
